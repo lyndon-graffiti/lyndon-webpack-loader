@@ -1,0 +1,33 @@
+{
+  "name": "@lyndon/webpack-loader",
+  "version": "1.0.0",
+  "description": "to transform the code in webpack build process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyndon-learn/lyndon-webpack-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "author": "wuxianzhi",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/lyndon-learn/lyndon-webpack-loader/issues"
+  },
+  "homepage": "https://github.com/lyndon-learn/lyndon-webpack-loader#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^18.4.2",
+    "commitlint": "^17.7.1",
+    "husky": "^8.0.3"
+  }
+}
