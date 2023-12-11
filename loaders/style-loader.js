@@ -5,6 +5,7 @@ module.exports = (sourceCode) => {
     const styleElement = document.createElement("style");
     styleElement.innerHTML = \`${sourceCode}\`;
     document.head.appendChild(styleElement);
+    module.exports = \`${sourceCode}\`;
   `;
   return code;
 };

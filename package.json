@@ -15,21 +15,13 @@
     "webpack",
     "loader"
   ],
-  "author": "wuxianzhi",
+  "author": "xianzhiwu",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "bugs": {
     "url": "https://github.com/lyndon-learn/lyndon-webpack-loader/issues"
   },
   "homepage": "https://github.com/lyndon-learn/lyndon-webpack-loader#readme",
   "devDependencies": {
-    "@commitlint/config-conventional": "^18.4.2",
-    "commitlint": "^17.7.1",
-    "husky": "^8.0.3",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }
